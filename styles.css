@@ -1,0 +1,124 @@
+/* CSS styles go here */
+/* CSS styles go here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #273746;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-menu li {
+    margin-right: 10px;
+  }
+  
+  .nav-menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .post-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .movie-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .movie-item {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 10px;
+  }
+  
+  .movie-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-item .movie-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .movie-item h3 {
+    margin-top: 0;
+    color: #17202a;
+  }
+  
+  footer {
+    background-color: #273746;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Custom color classes */
+  .color-1 { color: #aab7b8; }
+  .color-2 { color: #17202a; }
+  .color-3 { color: #a6acaf; }
+  .color-4 { color: #95a5a6; }
+  .color-5 { color: #616a6b; }
+  .color-6 { color: #273746; }
+
+  
+  
+  
+ /* CSS styles go here */
+/* ... previous styles ... */
+
+/* Add hover effect to navigation menu */
+.nav-menu li a:hover {
+  background-color: #616a6b;
+}
+
+/* Add hover effect to movie categories */
+.movie-list li:hover {
+  background-color: #f2f2f2;
+}
+
+/* Add hover effect to movie items */
+.movie-item:hover {
+  background-color: #f2f2f2;
+}
+
+/* Add hover effect to post items */
+.post-item:hover {
+  background-color: #f2f2f2;
+}
+
+  
